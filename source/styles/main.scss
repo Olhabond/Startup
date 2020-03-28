@@ -1,0 +1,24 @@
+@import "blocks/header.scss";
+$main-color: #00ffcc;
+body {
+    color: $main-color;
+}div {
+    color: red;
+    h2 {
+        color: green;
+    }
+}
+.contact-us {
+    color: blue;
+    &__title {
+        color: #fff;
+    }
+}
+.title {
+    font-size: 30px;
+    color: red;
+}
+.subtitle {
+    @extend .title;
+    color: green;
+}

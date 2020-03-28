@@ -1,0 +1,17 @@
+<!doctype html>
+    html
+        head
+            link(href="styles/main.css", rel="stylesheet")
+        body
+            include sections/title.pug
+            h1 hello 
+            h2 
+            .container
+            h2 world
+            img(alt="icon", src="img/photo.png")
+            mixin phrase    
+                span Hello world
+
+            +phrase
+            +phrase   
+            

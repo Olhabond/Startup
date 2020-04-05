@@ -31,7 +31,7 @@ const path = {
         watchSource: './source/js/**/*.js',
     },
     images:   {
-        source: './source/img/**/*',
+        source: './source/img/*',
         dest:   './build/img/',
     },
     fonts:    {
